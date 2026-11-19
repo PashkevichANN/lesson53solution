@@ -15,8 +15,16 @@ int main() {
 	print(convert(matrix, row, column));
 
 	int sum = sum1(matrix, row, column);
-	print("Example of sum1: " +to_string(sum));
+	print("Example of sum1: " +to_string(sum) + "\n");// выше центра
 
+	int sum02 = sum2(matrix, row, column);// ниже центра
+	print("Example of sum1: " + to_string(sum02) + "\n");
+
+	int sum03 = sum3(matrix, row, column);// центр
+	print("Example of sum1: " + to_string(sum03) + "\n");
+
+	int sum04 = sum4(matrix, row, column);// ниже центра
+	print("Example of sum1: " + to_string(sum04) + "\n");
 
 
 	return 0;
