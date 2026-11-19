@@ -14,6 +14,10 @@ int main() {
 	print("Matrix:\n");
 	print(convert(matrix, row, column));
 
+	int sum = sum1(matrix, row, column);
+	print("Example of sum1: " +to_string(sum));
+
+
 
 	return 0;
 }
