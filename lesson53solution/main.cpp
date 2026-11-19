@@ -23,7 +23,7 @@ int main() {
 	int sum03 = sum3(matrix, row, column);// центр
 	print("Example of sum1: " + to_string(sum03) + "\n");
 
-	int sum04 = sum4(matrix, row, column);// ниже центра
+	int sum04 = sum4(matrix, row, column);// побочная диагональ
 	print("Example of sum1: " + to_string(sum04) + "\n");
 
 
